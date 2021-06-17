@@ -1,0 +1,27 @@
+p {
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+  }
+  h1 {
+      font-style: italic;
+  }
+  h2 {
+      font-size: 30px;
+  }
+   p.fuente-nue {
+      font-family: 'Comic Neue, san serif';
+     
+   }
+   
+  /* comic-neue-regular - latin */
+  @font-face {
+      font-family: 'Comic Neue';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../fonts/comic-neue-v2-latin-regular.eot'); /* IE9 Compat Modes */
+      src: local(''),
+           url('../fonts/comic-neue-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('../fonts/comic-neue-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+           url('../fonts/comic-neue-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+           url('../fonts/comic-neue-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+           url('../fonts/comic-neue-v2-latin-regular.svg#ComicNeue') format('svg'); /* Legacy iOS */
