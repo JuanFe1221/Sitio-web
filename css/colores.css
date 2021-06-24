@@ -1,0 +1,16 @@
+/* color llamado por su nombre...*/
+p {
+    font-size: 3em;
+}
+.color-amarillo {
+    color:yellow
+}
+.color-rojo {
+    color: rgb(255,0,0)
+}
+.color-rosa {
+ color: #ff0080
+}
+.color-virtual-studio{
+    color:rgb(0, 102, 84)
+}s

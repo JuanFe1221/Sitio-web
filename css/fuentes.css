@@ -12,6 +12,11 @@ p {
       font-family: 'Comic Neue, san serif';
      
    }
+   span{
+       font-size: 1.8em;
+       color:yellowgreen;
+       font-weight: 900;
+   }
    
   /* comic-neue-regular - latin */
   @font-face {
