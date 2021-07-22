@@ -1,0 +1,40 @@
+body{
+    margin: 0 8em;
+}
+h1 {
+    text-align: center;
+    border-bottom: 3px solid gray;
+    padding-bottom: 20px;
+}
+p. {
+    text-align: justify;
+    font-size: 1.7em;
+}
+.parrafo-margen {
+    margin-top: 2em;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 5em;
+}
+.borde-1{
+border-top: 3px solid darkcyan;
+}
+.borde-2{
+border: 4px solid goldenrod;
+color: white;
+background-color: black;
+}
+.espaciado-interno-1 {
+    border: 4px solid darkcyan;
+    padding: 20px;
+    color: white;
+    background-color: turquoise;
+}
+.espaciado-interno-2 {
+    border: 4px solid goldenrod;
+    margin-top: 3em;
+    padding: 40px;
+    color: yellow;
+    background-color: violet;
+}
+

@@ -1,0 +1,27 @@
+body {
+    margin: 0 4em;
+}
+h1{
+    text-align: center;
+}
+p {
+    font-size: 1.8em;
+    text-align: justify;
+    font-family: 'Yomogi', cursive;
+    line-height: 0.9em;
+}
+.texto-identado{
+    text-indent: 2em;
+}
+.letra-especial{
+    font-size: 3em;
+}
+blockquote {
+    font-size: 2em;
+    font-size: italic;
+    color: rgb(48, 48, 48);
+    font-weight: 900;
+    font-family: 'Yomogi', cursive;
+    text-align: right;
+    
+}
