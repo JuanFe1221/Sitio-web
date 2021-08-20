@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    height: 90;
+    top: 0%;
+    background-color: rgb(1, 139, 211);
+    width: 330px;
+    
+}
+ul{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 90%;
+}
+a{
+text-decoration: none;
+color: rgb(64, 64, ,64 .8);
+font-size: 1.2em;
+display: block;
+border-radius: 5px;
+padding: 35px;
+
+}
+a:hover {
+background: aquamarine;
+
+}
+.main-content {
+    margin: 40px 40px 40px 250px;
+    line-height: 1.6em;
+    
+}
