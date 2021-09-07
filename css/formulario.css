@@ -1,18 +1,61 @@
+body{
+background-image: linear-gradient(to right, #2C3E50, #4CA1AF);
+
+}
 h1{
     text-align: center;
+    color: whitesmoke;
+    font-family:'Roboto', sans-serif;
 }
 h2{
     text-align: center;
+    color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+}
+
 }
 fieldset{
     width: 60%;
     display: block;
     margin: 0 auto;
+    color: whitesmoke;
+    border-radius: 20px;
 }
 .Box_Formulario{
-    width: 80%;
-    background-color: yellowgreen;
+    width: 52%;
     display: block;
     margin: 25px auto;
+    color: whitesmoke;
+}
+.controls {
+    margin-bottom: 1.3em;
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 350px;
+}
+.controls-ckeck{
+ font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: .7em;
+}
+}
+label{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.controls-button{
+    margin-bottom: 1.3em;
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 700px;
+    color: whitesmoke;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #1D4350, #A43931);
+    border: none;
+}
+.controls-button:hover{
+   transform: translateY(3px);
     
 }
