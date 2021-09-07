@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+fieldset{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.Box_Formulario{
+    width: 80%;
+    background-color: yellowgreen;
+    display: block;
+    margin: 25px auto;
+    
+}
