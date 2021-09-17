@@ -30,3 +30,29 @@ p {
            url('../fonts/comic-neue-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
            url('../fonts/comic-neue-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
            url('../fonts/comic-neue-v2-latin-regular.svg#ComicNeue') format('svg'); /* Legacy iOS */
+           *{
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: rgb(255, 0, 0)
+        }
+        ul {
+            list-style: none;
+            font-family: 'Padauk', sans-serif ;
+            font-size: 12px;
+        }
+        li {
+            display: inline-block;
+            padding: 1em;
+        }
+        a {
+            text-decoration: none;
+            color:black
+        }
+        .main-content {
+            margin: 4em 3em ;
+        }
+        li:hover {
+            background: rgb(138, 138, 163);
+        }
