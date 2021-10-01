@@ -1,9 +1,22 @@
-body{
-    background-color: rgb(47, 79, 79)
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
 h1{
     color: white;
+    text-align: left;
+    font-size: 2em;
 }
 h3{
     color: white;
+    text-align: left;
+    font-size: 2em;
+     top: 1.5px;
 }

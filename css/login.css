@@ -8,16 +8,9 @@ body {
     background-image: url(../img/hawai.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: movimiento 10s infinite linear alternate;
+    
 }
-@keyframes movimiento {
- from{ background-position: bottom right;
- }
- to{ background-position: top left;
 
- }
-
-}
 
 .main-content {
    width: 100%;
