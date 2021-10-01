@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-size: 3.5em;
+}    
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template: "item-grid-2" "item-grid-2" "item-grid-2" 100px 
+                   "item-grid-3" "item-grid-4" "item-grid-5" 250px
+                   "item-grid-3" "item-grid-4" "item-grid-5" 250px
+                   "item-grid-6" "item-grid-6" "item-grid-6" 100px /
+                    1fr              700px           1fr;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 4px solid rgba(0,0,0,.7);
+    font-size: 2.5em;
+    text-align: center;
+    gap: 20px;
+    color: white;
+
+
+}
+.item-grid-2{
+    grid-area: item-grid-2;
+    background-color: darkgoldenrod;
+
+    
+}
+.item-grid-3{
+    background-color: darkorchid;
+    grid-area: item-grid-3;
+    
+}
+.item-grid-4{
+    background-color: darkturquoise;
+    grid-area: item-grid-4;
+    
+}
+.item-grid-5{
+    background-color: darkcyan;
+    grid-area: item-grid-5;
+}
+.item-grid-6{
+    background-color: mistyrose;
+    grid-area: item-grid-6;
+}
