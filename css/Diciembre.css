@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-conter{
+  display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+   grid-template-rows: 1fr 1fr 1fr ;
+   width: 60%; 
+    margin: 0 auto;
+    text-align: center; 
+    font-size: 1em; 
+    grid-gap: 15px;
+    margin-top: 100px;
+}
+ .main-conter > div{
+    display: block;
+    background-color: black; 
+    padding: 15px;
+    color: rgb(247, 242, 242);
+    font-weight: bold; 
+    font-family: 'Yatra One', cursive;
+    justify-items: center;
+    border: 2px solid rgb white ;
+    font-family: 'Chewy', cursive;
+    border-radius: 20px;
+} 
+
+.main-conter .item1{
+    background-color:(144, 124, 236);
+    grid-column-start: 3;
+    grid-column-end: 4; 
+}
+.main-conter .festivo{
+    background-color:gray;
+}
+.main-conter .titulo{
+    background-color: gainsboro;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    border-bottom: 2px solid black;
+    color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+   
+}
+.main-conter .dia{
+    background-color: red;
+}
+.main-conter .domingo{
+    background-color: red;
+}
+
+@media only screen and (max-width:800px ){
+    body{
+        background-color: rgb(224, 155, 242);
+    }
+    .main-conten > div{
+        display: block;
+        background-color: black; 
+        padding: 5px;
+        color: white;
+        font-weight: bold; 
+        font-family: 'Yatra One', cursive;
+        justify-items: center;
+        border: 2px solid rgb(34, 87, 84) ;
+        font-family: 'Chewy', cursive;
+        border-radius: 20px; 
+    }
+    .main-conten{
+         grid-template-columns: 70px 70px 70px 70px 70px 70px 70px; 
+         grid-template-rows: 1fr 1fr 1fr ;/ 
+          margin: 0 auto;
+          text-align: center; 
+          font-size: 1em; 
+      }
+}
