@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url(../img/fondo.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}    
 
 h1{
     color: white;
