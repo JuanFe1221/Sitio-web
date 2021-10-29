@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+h2{
+    margin-left: 55px;
+   margin-top: 55px;
+    
+}
+.container{
+    margin-top: 55px;
+    
+}
+.pointer{
+    cursor: pointer;
+}
+.style-container{
+    margin-bottom: 40px;
+}
