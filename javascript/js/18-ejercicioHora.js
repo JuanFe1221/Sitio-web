@@ -48,20 +48,4 @@ console.log("feliz cumpleaños crack")
 
  console.log("asi que voy a cumplir "+ (anioDIFF+1));
 
- console.log("===ejemplo extra===");
-
- var today = new Date();
-
-
- var aniohoy=today.getDate();
- var meshoy=today.getMonth();
- console.log("hoy es el dia "+aniohoy+" del mes " +(meshoy+1));
-
- var diadehoy=today;
- var cumpleluisa= new Date("april 7 2003");
- var milisegundosdiadehoy=diadehoy.getTime();
-var milisegundoscumpleluisa=cumpleluisa.getTime();
-var diferenciamilis=milisegundoscumpleluisa-milisegundosdiadehoy;
-var diasdiferencia= diferenciamilis/(1000*60*60*24);
-
- alert(Math.floor(diasdiferencia));
+ 
