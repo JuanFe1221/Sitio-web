@@ -11,14 +11,14 @@
     visibility: hidden;
 }
 .menu-box {
-    border-bottom: 10px solid #827A87);
+    border-bottom: 10px solid #827A87;
     position: fixed;
     top: 0;
     width: 180px;
     padding-left: 20px;
     height: 100%;
-
 }
+
 ul {
     display: flex;
     flex-direction: column;
@@ -55,4 +55,8 @@ h1,h3{
     font-size: 3.5em;
     margin-left: 300px;
 margin-bottom: 65px;
+}
 
+h1{
+    text-align: center;
+}
