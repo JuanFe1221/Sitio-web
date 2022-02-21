@@ -1,3 +1,9 @@
-function intercambiar(){
-    document.getElementById("imagenPr").src = "../img/supra2.jpeg"
+function interConArg(){
+    document.getElementById(id).src = ruta;
+
+}
+
+function interConArg (idPic, ruta) {
+    let newPic = document.getElementById(idPic);
+    newPic.src = ruta;
 }
