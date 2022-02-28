@@ -1,0 +1,77 @@
+.container{
+border-radius: 8px;
+width: 700px;
+height: 1200px;
+}
+.item-flex{
+    align-items: center;
+    background-color: yellow;
+    height: 50px;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    border: solid yellow;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+.titulos{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    
+p{  text-align: right;
+}
+
+.texto{
+  float: right;
+  width: 200px;
+  height: 40px;
+  margin-right: 230px;
+position: relative;
+margin-left: 20px;
+}
+.imagen{
+    margin-left: 30px;
+}
+.division-caratula{
+    display: flex;
+}
+.parte-abajo{
+    display: flex;
+    margin-left: 30px;
+}
+
+.suma{
+    background-image:url(../img/mas.png);
+    width: 60px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 1px;
+}
+
+.numeroDos{
+    
+    width: 60px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 1px;
+    
+}
+.resta{
+
+    background-image:url(../img/menos.png);
+    width: 60px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 1px;
+    
+}
+h1{
+    color: black;
+    font-size: 1em;
+}
