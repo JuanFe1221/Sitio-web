@@ -2,7 +2,7 @@
 border-radius: 8px;
 width: 700px;
 height: 700px;
-border: solid 1px;
+/* border: solid 1px; */
 }
 .item-flex{
     align-items: center;
@@ -34,14 +34,15 @@ position: relative;
 margin-left: 20px;
 }
 .imagen{
-    margin-left: 30px;
+    margin-left: 40px;
+
 }
 .division-caratula{
     display: flex;
 }
 .parte-abajo{
     display: flex;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 10px;
 }
 
@@ -52,7 +53,8 @@ margin-left: 20px;
     background-position: center;
     background-repeat: no-repeat;
     border: solid 1px;
-
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .numeroDos{
@@ -61,8 +63,7 @@ margin-left: 20px;
     height: 40px;
     background-position: center;
     background-repeat: no-repeat;
-    border: solid 1px;
-    
+    border: solid 1px; 
 }
 .resta{
 
@@ -72,18 +73,54 @@ margin-left: 20px;
     background-position: center;
     background-repeat: no-repeat;
     border: solid 1px;
-    
+    border-radius: 4px;  
+    cursor: pointer;
 }
-h1{
+.sub{
     color: black;
-    font-size: 1em;
+    font-size: 2em;
 }
+/*  
 .suma:hover{
 color: navajowhite;
 background-color: grey;
 }
+*/
+
+/*  
 .resta:hover{
     color: navajowhite;
     background-color: grey;
-    
+     }
+    */
+   
+    h3{
+        font-size: 2em;
+    }
+    .eliminar{
+        margin-left: 60px;
+        margin-top: 30px;
+        height: 40px;
+        width: 200px;
+        cursor: pointer;
+
+    }
+    .guardar{
+        margin-top: 20px;
+        margin-left: 285px;
+        height: 40px;
+        width: 200px;
+        cursor: pointer;
+    }
+    .botones{
+       display: flex;
+    }
+    h1{
+        font-size: 1em;
+
+    }
+    .todos{
+        border: solid 1.5px;
+        height: 600px;
+        
     }
