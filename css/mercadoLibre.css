@@ -1,0 +1,20 @@
+.encabezado{
+    background-color: yellow;
+}
+
+
+.menu{
+    grid-area: menu;
+    
+   
+}
+
+.carrito{
+    grid-area: carrito;
+   
+}
+
+.texto{
+    grid-area: texto;
+    
+}
