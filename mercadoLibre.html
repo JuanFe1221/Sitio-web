@@ -1,31 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado libre</title>
     <link rel="stylesheet" href="css/mercadoLibre.css">
-    <script src="javascript/js/mercadoLibre.js"></script>
     <script src="https://kit.fontawesome.com/47910d8a72.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
 </head>
 <body>
-
-    <div class="encabezado">
-      
-     <i class="fa-solid fa-bars" ></i>
-    
-     <input type="text" class="texto">
-    
-    
-    
-     <i class="fa-solid fa-truck"></i>
-
+    <div class="header">
+        <div class="logoMenu">
+            <i class="fa-solid fa-handshake-simple"></i>
+        </div>
+        <div class="barraBusqueda">
+            <input id="textoBusqueda" type="text" placeholder="Busca aqui el producto de tu preferencia">
+        </div>
+        <div class="logoCarrito">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
     </div>
-
-    <input type="button" value="Alert" onclick="validarObjetos();" >
     
+    <div class="mainContent" id="mainContent"></div>
+    
+    <script src="javascript/js/mercadoLibre.js"></script>
 </body>
 </html>
