@@ -1,32 +1,45 @@
 "use strict"
-let horaSalida1 = new Date(2022, 4, 5 , 8, 30, 0);
-let horaLlegada1 = new Date(2022, 4, 5, 9, 45, 0);
+let horaSalida1 = new Date(2022, 4, 5 , 7, 30, 0);
+let horaLlegada1 = new Date(2022, 4, 5, 11, 30, 0);
 
-let horaSalida2 = new Date(2022, 3, 30, 8, 10, 0);
-let horaLlegada2 = new Date(2022, 3, 30, 9, 50, 0);
+let horaSalida2 = new Date(2022, 4, 5, 9, 10, 0);
+let horaLlegada2 = new Date(2022, 4, 5, 1, 10, 0);
 
-window.onload= function(){
-    mostrarVuelos();
-}
+let horaSalida3 = new Date(2022, 4, 5, 0, 0, 0);
+let horaLlegada3 = new Date(2022, 4, 5, 0, 0, 0);
+
+
 
 let vuelo=[{
     "origen": "BGT",
-    "destino": "CTG",
+    "destino": "DB",
     "horaDeSalida": horaSalida1.getHours()+ ":" + horaSalida1.getMinutes(),
     "horaDeLlegada": horaLlegada1.getHours()+ ":" + horaLlegada1.getMinutes(),
-    "precio": 4299000,
+    "precio": 5900000,
     "directo": "Directo",
-    "economico": "Mas economico",
+    "economico": "Mas económico",
+    
 },
 {
-    "origen": "BTG",
-    "destino": "CTG",
+    "origen": "BGT",
+    "destino": "DB",
     "horaDeSalida": horaSalida2.getHours()+ ":" + horaSalida2.getMinutes(),
     "horaDeLlegada": horaLlegada2.getHours()+ ":" + horaLlegada2.getMinutes(),
-    "precio": 415000,
+    "precio": 6000000,
     "directo": "Directo",
-    "economico": "Más economico",
-}];
+    "economico": "Más económico",
+},
+{
+    "origen": "BGT",
+    "destino": "DB",
+    "horaDeSalida": horaSalida3.getUTCHours()+ ":" + horaLlegada3.getMinutes(),
+    "horaDeLlegada": horaLlegada3.getHours()+ ":" + horaLlegada3.getMinutes(),
+    "precio": 6100000,
+    "directo": "Directo",
+    "economico": "Más económico",
+
+}
+];
 class Vuelos{
     constructor(origen, destino, precio,horaSalida,horaLlegada,directo,economico){
         this.origen= origen;
@@ -46,31 +59,31 @@ function cargarVuelos(origen,destino,precio,horaDeSalida,horaDeLlegada,economico
     let contenedor=document.createElement("div");
     let contenMain=document.getElementById("main_content");
     contenMain.appendChild(contenedor);
-    contenedor.setAttribute("class", "content-main");
+    contenedor.setAttribute("class", "container");
 
     let origenVuelo=document.createElement("label");
     contenedor.appendChild(origenVuelo);
     let nodoOrigen = document.createTextNode(origen);
     origenVuelo.appendChild(nodoOrigen);
-    origenVuelo.setAttribute("class", "style-origen");
+    origenVuelo.setAttribute("class", "css-origen");
 
     let destinoVuelo=document.createElement("label");
     contenedor.appendChild(destinoVuelo);
     let nodoDestino = document.createTextNode(destino);
     destinoVuelo.appendChild(nodoDestino);
-    destinoVuelo.setAttribute("class", "style-destino");
+    destinoVuelo.setAttribute("class", "css-destino");
 
     let precioVuelo=document.createElement("label");
     contenedor.appendChild(precioVuelo);
-    let nodoPrecio = document.createTextNode("cop $"+ precio);
+    let nodoPrecio = document.createTextNode("COP $"+ precio);
     precioVuelo.appendChild(nodoPrecio);
-    precioVuelo.setAttribute("class", "style-precio");
+    precioVuelo.setAttribute("class", "css-precio");
 
     let salidaVuelo=document.createElement("label");
     contenedor.appendChild(salidaVuelo);
     let nodoSalida = document.createTextNode(horaDeSalida+" am");
     salidaVuelo.appendChild(nodoSalida);
-    salidaVuelo.setAttribute("class", "styleSalida");
+    salidaVuelo.setAttribute("class", "cssSalida");
 
     let linea=document.createElement("hr");
     contenedor.appendChild(linea);
@@ -78,33 +91,36 @@ function cargarVuelos(origen,destino,precio,horaDeSalida,horaDeLlegada,economico
 
     let LlegadaVuelo=document.createElement("label");
     contenedor.appendChild(LlegadaVuelo);
-    let nodoLlegada = document.createTextNode(horaDeLlegada+ " am");
+    let nodoLlegada = document.createTextNode(horaDeLlegada+ " " + "pm");
     LlegadaVuelo.appendChild(nodoLlegada);
-    LlegadaVuelo.setAttribute("class", "styleLlegada");
+    LlegadaVuelo.setAttribute("class", "cssLlegada");
 
     let VueloDirecto =document.createElement("label");
     contenedor.appendChild(VueloDirecto);
     let nodoVueloDirecto = document.createTextNode("Directo");
     VueloDirecto.appendChild(nodoVueloDirecto);
-    VueloDirecto.setAttribute("class", "style-VueloDirecto");
+    VueloDirecto.setAttribute("class", "css-VueloDirecto");
 
     let VueloEconomico=document.createElement("label");
     contenedor.appendChild(VueloEconomico);
     let nodoVueloEconomico = document.createTextNode(economico);
     VueloEconomico.appendChild(nodoVueloEconomico);
-    VueloEconomico.setAttribute("class", "styleEconomico");
+    VueloEconomico.setAttribute("class", "cssEconomico");
 
     let textoDuracion =document.createElement("label");
     contenedor.appendChild(textoDuracion);
     let nodotextoDuracionVuelo = document.createTextNode("Duracion");
     textoDuracion.appendChild(nodotextoDuracionVuelo);
-    textoDuracion.setAttribute("class", "styleTextoDuracion");
+    textoDuracion.setAttribute("class", "cssTextoDuracion");
 
     let DuracionVuelo =document.createElement("label");
     contenedor.appendChild(DuracionVuelo);
-    let nodoDuracionVuelo = document.createTextNode("1h 20Min");
+    let nodoDuracionVuelo = document.createTextNode("28hrs");
     DuracionVuelo.appendChild(nodoDuracionVuelo);
-    DuracionVuelo.setAttribute("class", "styleDuracion");
+    DuracionVuelo.setAttribute("class", "cssDuracion");
     
 }
 
+window.onload= function(){
+    mostrarVuelos();
+}

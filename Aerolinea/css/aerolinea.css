@@ -6,12 +6,12 @@ body{
     background-color: whitesmoke;
 }
 header{
-    background-color: rgb(235, 229, 245);
+    background-color: rgb(216, 19, 27);
     display: grid;
     grid-template-columns: 1fr        1fr          1fr;
     grid-template-areas:    "logo      empty       menu";
 }
-.logoAvianca{
+.logoEmirates{
     padding:10px;
     cursor: pointer;
 }
@@ -20,11 +20,11 @@ header{
     font-size: 2em;
     grid-area: menu;
     cursor: pointer;
-   margin-left: 400px;
-   margin-top: 10px;
+   margin-left: 550px;
+   margin-top: 20px;
 }
 
-.content-main{
+.container{
     margin: 1%;
     border-radius: 8px;
     background-color: white;
@@ -33,10 +33,10 @@ header{
                      "styleSalida         styleTextoDuracion     styleLlegada"     25px 
                    "style-origen           styleDuracion       style-destino"     35px 
                    "linea                     linea              linea"            10px
-                   "style-VueloDirecto    style-VueloDirecto             style-precio"      35px/ /**/
+                   "style-VueloDirecto    style-VueloDirecto             style-precio"      55px/ 
                     1fr                      1fr                    1fr;
 }
-.styleEconomico{
+.cssEconomico{
     grid-area: styleEconomico;
     background-color: rgb(67, 0, 210);
     border-bottom-right-radius: 10px;
@@ -45,45 +45,56 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     width: 150px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
 
 }
-.styleSalida{
+.cssSalida{
     grid-area: styleSalida;
 }
-.styleTextoDuracion{
+.cssTextoDuracion{
     grid-area: styleTextoDuracion;
     justify-content: center;
     align-items: center;
     display: flex;
+    font-family: 'Lato', sans-serif;
 }
-.styleLlegada{
+.cssLlegada{
     grid-area: styleLlegada;
 } 
-.style-origen{
+.css-origen{
     grid-area: style-origen;
 }
-.styleDuracion{
+.cssDuracion{
     grid-area: styleDuracion;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 600;
+    color: rgb(198, 12, 48);
     font-size: 1em;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
 }
-.style-destino{
+.css-destino{
     grid-area: style-destino;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
 }
-.style-VueloDirecto{
+.css-VueloDirecto{
     grid-area: style-VueloDirecto;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
 }
-.style-precio{
+.css-precio{
     grid-area: style-precio;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
 } 
 .linea{
     grid-area: linea;
     border: none;
-    border-bottom: solid 2px gray;
+    border-bottom: solid 2px rgb(198, 12, 48);
 }
