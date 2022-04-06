@@ -1,0 +1,57 @@
+.transfrom{
+width: 250px;
+height: 250px;
+background-color: darkgray;
+transition: transform 3s;
+}
+.transfrom:hover{
+    transform: translate(0, 100px);
+}
+
+.transform2{
+    width: 50px;
+    height: 50px;
+    background-color: royalblue;
+    margin-top: 50px;
+    transition: transform 2s;
+}
+.transform2:hover{
+    transform: scale(5,2);
+    cursor: pointer;
+}
+
+.transform3{
+    margin-top: 50px;
+    width: 90px;
+    height: 90px;
+    background-color: sandybrown;
+    transition: width 1s, height 1s, transform 3s;
+
+}
+
+.transform3:hover{
+    transition: width 1s, height 1s, transform 3s;
+    transform: translate(1%, -1%);
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.transform4{
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: width 1s, height 1s, transform 3s;
+    position: fixed;
+
+   
+}
+
+.transform4:hover{
+ transform: scale(5,3);
+ 
+}
