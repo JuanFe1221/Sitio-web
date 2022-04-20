@@ -38,6 +38,7 @@ height: 60px;
 .imagenLogo{
     grid-area: logo;
     margin-left: 60px;
+    cursor: pointer;
 }
 .iconos{
     grid-area: iconos;
@@ -81,18 +82,37 @@ margin-left: 20px;
     height: 0;
     transition: width;
     transition: width 600ms, height 600ms;
-    background-color: blueviolet;
+    background-color: #f4f3f3;;
 }
 .transform-visible{
 
- position: fixed;
-    bottom: 40px;
-    right: 10px;
-    width: 50%;
+    background-color: #f4f3f3;
+    bottom: 0;
+    box-shadow: -1px 2px 7px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
     height: 90%;
-    transition: width;
-    transition: width 50%, height 90%;
-    background-color: blueviolet;
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    width: 375px;
+    z-index: 99999991;
+    background-color: #f4f3f3;
+    bottom: 0;
+    box-shadow: -1px 2px 7px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    height: 90%;
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    width: 375px;
+    z-index: 99999991;
+    
+}
 
 
+.img1{
+   margin-left: 50px;
+}
+.fa-x{
+    cursor: pointer;
 }

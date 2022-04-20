@@ -10,15 +10,15 @@
 .box-invisible{
     visibility: hidden;
 }
-.menu-box {
-    border-bottom: 10px solid #827A87);
+.menu-box{
+    border-bottom: 10px solid #827A87;
     position: fixed;
     top: 0;
     width: 180px;
     padding-left: 20px;
     height: 100%;
-
 }
+
 ul {
     display: flex;
     flex-direction: column;
@@ -56,4 +56,12 @@ h1,h3{
     margin-left: 300px;
 margin-bottom: 65px;
 
+}
+body{
+    position:fixed;
+    
+}
+.imgen{
+    margin-left: 600px;
+    margin-bottom: 300px;
 }
