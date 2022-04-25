@@ -13,6 +13,7 @@ height: 60px;
     animation-timing-function: ease-in; 
     animation-duration: .3s;
     transition: width 50%, height 90%;
+
     
 }
 
@@ -30,27 +31,40 @@ height: 60px;
     border-bottom: 1px solid grey;
     margin-top: 10px  ;
     height: 50px;
-    grid-template-columns: 1fr              1fr       1fr     1fr   ;
-    grid-template-areas:    "logo           buscar     empty       iconos  " ;
+    grid-template-columns: 1fr       1fr         1fr       1fr             1fr   ;
+    grid-template-areas:  "empty      logo     buscar       iconos  " ;
   
 }
 
+.headerPrincipalIn{
+    display: none;
+}
 .imagenLogo{
     grid-area: logo;
     margin-left: 60px;
     cursor: pointer;
+    padding-left: 10px;
 }
 .iconos{
     grid-area: iconos;
 }
 .buscador{
     grid-area: buscar;
+    width: 100%;
+    height: 100%;
+    
     
     width: 250px;
 }
 .input{
-    border: white;
+   width: 250px;
+   height: 40px;
+   border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
 }
+
+
+
 .fa-location-dot{
 cursor: pointer;
 }
@@ -115,7 +129,50 @@ margin-left: 20px;
 }
 .fa-x{
     cursor: pointer;
+    margin-left: 190px;
+    margin-top: 25px;
 }
 .w-90{
     width: 100%;
+}
+.headerAna{
+    background-color:#0072ce;
+    height: 80px;
+}
+/* @media screen {
+    max-width: ;
+} */
+.fa-magnifying-glass{
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.header2{
+    display: none;
+     
+    height: 50px;
+}
+.headerIn{
+    display: flex;
+}
+
+.input2{
+    border: none;
+    padding: 10px;
+    width: 1700px;
+} 
+.icono2{
+    padding: 10px;
+    cursor: pointer;
+}
+.inputDentro{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1.5em;
+}
+::placeholder{
+    text-align: center;
 }

@@ -78,6 +78,7 @@ function cargarInfoTabla (codigo, descripcion, valorUnitario, unidadStock) {
     let nodoUnidadStock = document.createElement("td");
     nodoProducto.appendChild(nodoUnidadStock);
     nodoUnidadStock.appendChild(unidadStock);
+    limpiarFormulario()
 }
 function validarFormulario() {
     let inputCodigoValidar = document.getElementById("codigo").value.trim();
@@ -106,4 +107,14 @@ function validarFormulario() {
 
     return true;
 
+   
+
 }
+function limpiarFormulario(){
+    document.getElementById("codigo").value = "";
+    document.getElementById("descripcion").value = "";
+    document.getElementById("valorUnitario").value = "";
+    document.getElementById("unidadStock").value = "";
+      }
+
+      
